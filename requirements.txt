@@ -1,0 +1,12 @@
+# Core Data Generation
+faker        # For realistic names, jobs, and census-based distributions
+numpy        # For statistical distributions (log-normal, weighted probabilities)
+uuid         # For generating Asana-style GIDs
+
+# LLM Integration
+openai        # For generating realistic task names and descriptions
+python-dotenv # For managing API keys and environment variables
+
+# Database & Utilities
+sqlite3       # Built-in: Used for schema execution and .sqlite output
+pandas        # Optional: Useful for handling large-scale data before SQL insertion
